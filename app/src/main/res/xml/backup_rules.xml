@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="health_tracker_key_vault.xml" />
+    <exclude domain="database" path="health_tracker_encrypted.db" />
+</full-backup-content>

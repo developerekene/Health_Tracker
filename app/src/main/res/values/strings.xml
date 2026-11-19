@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Health Tracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_checkup">Checkup</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_history">History</string>
+    <string name="nav_backup">Backup</string>
+
+    <!-- Offline & Security Badges -->
+    <string name="badge_offline_encrypted">Offline • AES-256 Encrypted</string>
+    <string name="vault_title">Encrypted Local Vault</string>
+    <string name="vault_subtitle">All records are encrypted on-device with SQLCipher &amp; Android Keystore. Zero network permissions.</string>
+
+    <!-- Units -->
+    <string name="unit_metric">Metric</string>
+    <string name="unit_imperial">Imperial</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lbs">lbs</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_ft">ft</string>
+    <string name="unit_in">in</string>
+
+    <!-- Checkup Screen -->
+    <string name="checkup_header_subtitle">BMI &amp; Physical Check</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_height">Height</string>
+    <string name="label_bmi_score">Body Mass Index</string>
+    <string name="label_healthy_range">Healthy range for your height</string>
+    <string name="section_physical_check">Physical Health Check (Optional)</string>
+    <string name="label_waist">Waist Circumference</string>
+    <string name="label_blood_pressure">Blood Pressure (mmHg)</string>
+    <string name="label_systolic">Systolic</string>
+    <string name="label_diastolic">Diastolic</string>
+    <string name="label_heart_rate">Resting Heart Rate (bpm)</string>
+    <string name="label_age">Age (years)</string>
+    <string name="label_sex">Biological Sex (for BMR)</string>
+    <string name="label_notes">Checkup Notes</string>
+    <string name="hint_notes">Energy level, post-workout, morning weigh-in…</string>
+    <string name="action_save_checkup">Save Health Check</string>
+    <string name="msg_record_saved">Health check encrypted and saved locally</string>
+
+    <!-- Progress Screen -->
+    <string name="progress_title">Progress Tracker</string>
+    <string name="progress_subtitle">Local biometric trends</string>
+    <string name="empty_progress_title">No checkups logged yet</string>
+    <string name="empty_progress_body">Record your first BMI and physical health check to unlock encrypted trend tracking.</string>
+    <string name="action_log_first">Log First Checkup</string>
+    <string name="action_set_goal">Edit Goal</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Health Log</string>
+    <string name="history_empty_title">No records match filter</string>
+    <string name="history_empty_body">Your encrypted local records will appear here after saving a checkup.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="confirm_delete_title">Delete health record?</string>
+    <string name="confirm_delete_body">This entry will be permanently removed from your local encrypted database.</string>
+
+    <!-- Backup & Settings Screen -->
+    <string name="backup_title">Backup &amp; Settings</string>
+    <string name="backup_section_title">Local Backup Export</string>
+    <string name="backup_section_desc">Export your encrypted health history to local device storage without any cloud or internet connection.</string>
+    <string name="action_export_json">Export JSON Backup</string>
+    <string name="action_export_csv">Export CSV Spreadsheet</string>
+    <string name="settings_appearance_title">Appearance &amp; Units</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System</string>
+    <string name="danger_zone_title">Local Data</string>
+    <string name="action_clear_all">Erase All Local Records</string>
+    <string name="confirm_clear_title">Erase all local records?</string>
+    <string name="confirm_clear_body">All saved BMI and physical checkup history will be permanently wiped. Consider exporting a JSON or CSV backup first.</string>
+    <string name="msg_export_success">Backup exported (%1$d records)</string>
+    <string name="msg_export_empty">Save at least one health check before exporting</string>
+    <string name="msg_export_error">Could not write backup file</string>
+</resources>

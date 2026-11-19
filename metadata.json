@@ -1,0 +1,6 @@
+{
+  "name": "Health Tracker",
+  "description": "Offline-first BMI & physical health check app with encrypted local Room storage, progress charts, dark mode UI, and JSON/CSV local backup export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
